@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="cwp.js" charset="utf-8"></script>
+        <style>
+            a:visited{
+                color: blue;
+            }
+            a{
+                text-decoration: none;
+            }
+            .dropbtn {
+    background-color: orange;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    position: relative;
+    left: 35px;
+    border-radius: 50px;
+
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #90b116;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    left: 53px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+        </style>
+    </head>
+    <body style="margin:0px;background-color: #E5FDD1;">
+        <div class="div1" style="background-color: blue;width: 228.5px;height: 30px;font-family: sans-serif;color: white;font-size: medium;"><strong style="position: relative;top: 6px;"><center>CONTENTS</center></strong></div>
+        <div class="div2" style="background-color: #E5FDD1;position: relative;padding-bottom: 15px;padding-top: 5px;">
+        <ul>
+            <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: large;"><a href="clgdet.html" target="_blank" style="text-decoration: none;">College Details</a></h4></li>
+            <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: large;"><a href="timetable.html" target="_blank" style="text-decoration: none;">Time Table</a></h4></li>
+            <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: large;color: blue;">JavaScript Games</h4>
+            <ul style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: large;">
+                <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: medium;color: brown;"><a href="JS Games/Dice Game/index.html" target="_blank">Dice Game</a></h4></li>
+                <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: medium;color: brown;"><a href="JS Games/Drum Kit/index.html" target="_blank">Drum Kit</a></h4></li>
+            </ul></li>
+            <li><h4 style="font-family:Trebuchet MS, Helvetica, sans-serif;font-size: large;"><a href="Bill Generator/bill.html" target="_blank" style="text-decoration: none;">Bill Generator</a></h4></li>
+        </ul>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">&nbsp;&nbsp;&nbsp;&nbsp;<strong>Departments</strong>&nbsp;&nbsp;&nbsp;&nbsp;</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="http://cse.anits.edu.in/" target="C">CSE</a>
+                <a href="http://ece.anits.edu.in/" target="C">ECE</a>
+                <a href="http://eee.anits.edu.in/" target="C">EEE</a>
+                <a href="https://it.anits.edu.in/" target="C">IT</a>
+                <a href="http://mechanical.anits.edu.in/" target="C">MECH</a>
+                <a href="http://civil.anits.edu.in/" target="C">CIVIL</a>
+                <a href="http://chemical.anits.edu.in/" target="C">CHEM</a>
+            </div>
+          </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Bill Generator</title>
+    <link href="bill.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <div class="menu">
+      <main>
+        <h1>THE SLICES</h1>
+        <p class="established">Est. 2023</p>
+        <hr>
+        <section>
+          <h2>Cakes</h2>
+          <img src="C:\Users\Admin\Downloads\birthday-cake.png" alt="coffee icon" height="50px">
+          <article class="item">
+            <p class="flavor">Cheese Cake</p><p class="price">Rs.200</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Cherry Cake</p><p class="price">Rs.275</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Lemon Cake</p><p class="price">Rs.150</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Waffles</p><p class="price">Rs.300</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pancake</p><p class="price">Rs.350</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="C:\Users\Admin\Downloads\cupcake.png" alt="pie icon" height="50px">
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">Rs.100</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">Rs.175</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Chocolate Brownie</p><p class="price">Rs.200</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">Rs.250</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.slicespastries.com/" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">The Slices 🎂</p>
+      </footer>
+    </div>
+  <br>
+  <br>
+  <br>
+  <form class="bill1">
+    
+    <select id="sf">
+  <option selected value = "CheeseCake">Cheese Cake</option>
+  <option value = "CherryCake">Cherry Cake</option>
+  <option value = "LemonCake">Lemon Cake</option>
+  <option value = "Waffles">Waffles</option>
+  <option value = "Pancake">Pancake</option>
+  <option value = "Donut">Donut</option>
+  <option value = "CherryPie">Cherry Pie</option>
+  <option value = "Chocolateb">Chocolate Brownie</option>
+  <option value = "Cinnamon">Cinnamon Roll</option>
+  </select>
+    <input type="text" id="entrybox" pattern="\d*" placeholder="    Input Amount">&nbsp;&nbsp;<b>PIECE(S)</b>&nbsp;
+    <input type="button" value="ADD T0 CART" class="mybutton" id="getme">
+    
+  </form>
+  <br><br>
+  <textarea class="bill" cols="100" rows="12" id="writeme" style="background-color: #FEDEFF;"></textarea>
+  <br>
+  <input type="submit" value="CLEAR TEXTAREA" class="mybutton bill3" id="clr">
+  <input type="submit" value="PAY BILL" class="mybutton bill2" id="out">
+  <script src="bill.js" charset="utf-8"></script>
+  </body>
+</html>
