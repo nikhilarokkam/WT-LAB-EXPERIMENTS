@@ -1,0 +1,159 @@
+body,select,input[type="text"],textarea{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+  .mybutton {
+    background-color: #4CAF50;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    background-color: #555555;
+    border-radius: 4px;
+  }
+
+  #entrybox {
+    width: 20%;
+    height: 43px;
+    margin-left: 5px;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+    background-color: #c3c2ab;
+  }
+
+  .bill {
+    margin-left: 23%;
+    margin-right: 20%;
+    position: relative;
+    left: 300px;
+  }
+
+  .bill1 {
+    margin-left: 33%;
+    margin-right: 20%;
+    position: relative;
+    left: 300px;
+
+  }
+
+  #sf {
+    height: 48px;
+    border: 2px solid #b4b39d;
+    border-radius: 4px;
+  }
+
+  .bill2 {
+    margin-left: 67%;
+    position: relative;
+    left: 200px;
+    top: 30px;
+  }
+   .bill3 {
+    margin-left: 50%;
+    position: absolute;
+    left: 200px;
+    top: 162.5%;
+  }
+  body {
+    background-image: url(bakery2.jpg);
+    font-family: sans-serif;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #FFD4D4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    position: relative;
+    left: 300px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
