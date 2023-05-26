@@ -1,9 +1,0 @@
-<?php
-session_start();
-if(isset($_SESSION['facebook_username'])){
-    $_SESSION['facebook_username']=NULL;
-    unset($_SESSION['facebook_username']);
-}
-header("Location:login.php");
-die;
-?>
