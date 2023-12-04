@@ -1,4 +1,4 @@
-## Project Title: Automated University Time Table Management System
+## Project Title: Automated University Time Table Management System (Department Management System)
 
 ### Technologies Used:
 <ul>
